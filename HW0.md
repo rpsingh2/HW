@@ -1,50 +1,57 @@
-Level 1
+#Git Basics
 
-a)
-git commit
-git commit
+###Level 1
 
-b)
-git branch bugfix
-git checkout bugfix
+####Level 1-1
+*   git commit
+*   git commit
 
-c)
-git branch bugfix
-git checkout bugfix
-git commit
-git checkout master
-git commit
-git merge bugfix
+####Level 1-2
+*   git branch bugfix
+*   git checkout bugfix
 
-d)
-git branch bugfix
-git checkout bugfix
-git commit
-git checkout master
-git commit
-git checkout bugfix
-git rebase master
+####Level 1-3
+*   git branch bugfix
+*   git checkout bugfix
+*   git commit
+*   git checkout master
+*   git commit
+*   git merge bugfix
 
+####Level 1-4
+*   git branch bugfix
+*   git checkout bugfix
+*   git commit
+*   git checkout master
+*   git commit
+*   git checkout bugfix
+*   git rebase master
 
-Hooks
-Post Commit Script
-!#/bin/bash
-start "http://www.google.com"
+###Level 2 Ramping Up
 
-Level 2 Ramping Up
+####Level 2-1
+*   git checkout C4
 
-a)
-git checkout C4
+####Level 2-2
+*   git checkout C3
 
-b)
-git checkout C3
+####Level 2-3
+*   git branch -f bugFix HEAD~2
+*   git branch -f master C6
+*   git checkout HEAD^
 
-c)
-git branch -f bugFix HEAD~2
-git branch -f master C6
-git checkout HEAD^
+####Level 2-4
+*   git reset local^
+*   git checkout pushed
+*   git revert pushed	
 
-d)
-git reset local^
-git checkout pushed
-git revert pushed	
+![GitHub Logo](https://github.com/rpsingh2/HW/blob/master/Levels.JPG)
+
+## Hooks
+###Post Commit Script
+*   #!/bin/bash
+*   start "http://www.google.com"
+
+###Link
+* https://www.youtube.com/watch?v=xNl64ug8Zlo
+* https://github.com/rpsingh2/HW/blob/master/RPSINGH2.mp4
