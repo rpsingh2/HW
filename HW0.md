@@ -47,5 +47,5 @@
 
 ## Hooks
 ###Post Commit Script
-!#/bin/bash
-start "http://www.google.com"
+*!#/bin/bash
+*start "http://www.google.com"
