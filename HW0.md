@@ -45,7 +45,8 @@
 *   git checkout pushed
 *   git revert pushed	
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.com/rpsingh2/HW/blob/master/Levels.JPG)
+
 ## Hooks
 ###Post Commit Script
 *   #!/bin/bash
