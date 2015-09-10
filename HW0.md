@@ -25,12 +25,6 @@ git commit
 git checkout bugfix
 git rebase master
 
-
-Hooks
-Post Commit Script
-!#/bin/bash
-start "http://www.google.com"
-
 Level 2 Ramping Up
 
 a)
@@ -48,3 +42,8 @@ d)
 git reset local^
 git checkout pushed
 git revert pushed	
+
+Hooks
+Post Commit Script
+!#/bin/bash
+start "http://www.google.com"
