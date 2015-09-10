@@ -1,49 +1,51 @@
-Level 1
+#Git Basics
 
-a)
-git commit
-git commit
+###Level 1
 
-b)
-git branch bugfix
-git checkout bugfix
+####Level 1-1
+* git commit
+* git commit
 
-c)
-git branch bugfix
-git checkout bugfix
-git commit
-git checkout master
-git commit
-git merge bugfix
+####Level 1-2
+* git branch bugfix
+* git checkout bugfix
 
-d)
-git branch bugfix
-git checkout bugfix
-git commit
-git checkout master
-git commit
-git checkout bugfix
-git rebase master
+####Level 1-3
+* git branch bugfix
+* git checkout bugfix
+* git commit
+* git checkout master
+* git commit
+* git merge bugfix
 
-Level 2 Ramping Up
+####Level 1-4
+* git branch bugfix
+* git checkout bugfix
+* git commit
+* git checkout master
+* git commit
+* git checkout bugfix
+* git rebase master
 
-a)
-git checkout C4
+###Level 2 Ramping Up
 
-b)
-git checkout C3
+####Level 2-1
+* git checkout C4
 
-c)
-git branch -f bugFix HEAD~2
-git branch -f master C6
-git checkout HEAD^
+####Level 2-2
+* git checkout C3
 
-d)
-git reset local^
-git checkout pushed
-git revert pushed	
+####Level 2-3
+* git branch -f bugFix HEAD~2
+* git branch -f master C6
+* git checkout HEAD^
 
-Hooks
-Post Commit Script
+####Level 2-4
+* git reset local^
+* git checkout pushed
+* git revert pushed	
+
+## Hooks
+###Post Commit Script
 !#/bin/bash
 start "http://www.google.com"
